@@ -37,19 +37,38 @@ header
 .menu
 {
 	width: 20%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	float: left;
+}
+
+.menu li
+{
+	padding: 10px;
+	border-bottom: 1px solid black;
+	transition: border-bottom 0.2s;
+}
+
+.menu li a
+{
+	width: 100%;
+	margin: 0;
+	color: #292d39;
+}
+
+.menu li:hover {
+	border-bottom: 5px solid black;
 }
 
 .article
 {
 	width: 70%;
-	border: 3px solid red;
+	/*border: 3px solid red;*/
 	float: right;
 }
 
 header h1
 {
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	font-size: 50px;
 	display: inline;
 }
